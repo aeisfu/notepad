@@ -1,6 +1,6 @@
 document.getElementById("heading").innerHTML =
   localStorage["title"] || "This is big text."; // default text
-document.getElementById("text").innerHTML =
+document.getElementById("content").innerHTML =
   localStorage["title"] || "This is small text."; // default text
 
 setInterval(function() {
