@@ -1,5 +1,7 @@
 document.getElementById("heading").innerHTML =
-  localStorage["title"] || "This is sample text."; // default text
+  localStorage["title"] || "This is big text."; // default text
+document.getElementById("text").innerHTML =
+  localStorage["title"] || "This is small text."; // default text
 
 setInterval(function() {
   // fuction that is saving the innerHTML of the div
