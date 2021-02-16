@@ -22,3 +22,9 @@ div:focus {
   padding-top: 10px;
   font-size: 24px;
 }
+
+#menu {
+  padding-right: 80px;
+  color: #292929
+}
+    
